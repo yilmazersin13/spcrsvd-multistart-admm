@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Multi-start ADMM for SPCRsvd"
+authors:
+  - family-names: "Yenilmez"
+    given-names: "İsmail"
+  - family-names: "Yılmaz"
+    given-names: "Ersin"
+license: MIT
+repository-code: "https://github.com/USERNAME/spcrsvd-multistart-admm"
+preferred-citation:
+  type: article
+  title: "Stable Estimation of Sparse Principal Component Regression with SVD: A Multi-Start ADMM Framework for Low- and High-Dimensional Data"
+  authors:
+    - family-names: "Yenilmez"
+      given-names: "İsmail"
+    - family-names: "Yılmaz"
+      given-names: "Ersin"
+  year: 2026
