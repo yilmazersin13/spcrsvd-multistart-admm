@@ -4,8 +4,7 @@
 
 **Data and Code Availability.**
 The code that implements the SPCRsvd multi-start ADMM estimator and reproduces
-all simulations and figures in this paper is publicly available at
-[https://github.com/USERNAME/spcrsvd-multistart-admm](https://github.com/yilmazersin13/spcrsvd-multistart-admm). 
+all simulations and figures in this paper is publicly available at https://github.com/USERNAME/spcrsvd-multistart-admm](https://github.com/yilmazersin13/spcrsvd-multistart-admm. 
 The two real datasets are
 openly available: the diabetes dataset is distributed with the scikit-learn
 library (Efron et al., 2004), and the gasoline near-infrared dataset (Kalivas,
