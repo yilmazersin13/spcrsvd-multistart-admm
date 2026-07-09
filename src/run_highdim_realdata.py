@@ -1,11 +1,4 @@
 """
-run_highdim_realdata.py
-=======================
-High-dimensional real-data application for the SPCRsvd paper:
-single-start ADMM vs multi-start ADMM on the gasoline NIR dataset.
-
-WHAT IT DOES
-------------
 1. Loads the gasoline NIR data (n=60, p=401 wavelengths, response = octane).
    - If realdata/gasoline.csv is present, it uses that.
    - Otherwise it tries to download it once from the octane-NIR GitHub repo.
@@ -13,17 +6,9 @@ WHAT IT DOES
    and centers y on the training part only, optionally screens the top
    --screen predictors by |correlation with y| on the training part, then
    fits both estimators with the same inner ADMM updates and stopping rule.
-3. Writes, into realdata_results/:
-      realdata_gasoline.csv          (per-split raw results)
-      realdata_gasoline_summary.csv  (means, win rates, Wilcoxon p)
-      realdata_gasoline_table.tex    (LaTeX table)
-      realdata_gasoline_boxplot.png  (RMSE + objective boxplots)
-      realdata_gasoline_landscape.png(J_reg spread across starts, one split)
-      realdata_gasoline_convergence.png (single vs multi convergence, one split)
-4. Prints a summary block to the console.
 
 Run: python run_highdim_realdata.py
-Defaults: --nrep 50 --nstarts 50 --k 2 --screen 401 --support_keep 60 --seed 7000
+Defaults: --nrep 50 --nstarts 50 --k 2 --screen 401 --support_keep 60 --seed 15558
 """
 
 import argparse
