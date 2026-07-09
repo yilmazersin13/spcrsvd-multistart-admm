@@ -1,9 +1,3 @@
-"""
-spcrsvd_core.py
-===============
-Core ADMM solver and utilities for SPCRsvd estimation.
-Dense random Stiefel multi-start + regression-weighted objective.
-"""
 
 import numpy as np
 from numpy.linalg import svd, solve, norm
