@@ -1,8 +1,4 @@
-"""
-realdata_runner.py
-Real-data application for SPCRsvd: single-start ADMM vs multi-start ADMM.
-Resumable + time-budgeted (appends per split, skips finished seeds).
-"""
+
 import argparse
 import os
 import time
