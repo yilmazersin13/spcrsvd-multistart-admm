@@ -1,14 +1,3 @@
-"""
-run_all_scenarios.py
-====================
-SPCRsvd simulation: single-start ADMM vs multi-start ADMM.
-
-Usage:
-    python run_all_scenarios.py                        # 5 reps, all scenarios
-    python run_all_scenarios.py --nrep 50              # full run
-    python run_all_scenarios.py --nrep 3 --scenarios S1 S5   # quick test
-"""
-
 import argparse
 import time
 import os
