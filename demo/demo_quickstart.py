@@ -1,8 +1,3 @@
-"""
-demo_quickstart.py
-Minimal single-start vs multi-start SPCRsvd comparison on a small synthetic
-high-dimensional problem. Run: python demo_quickstart.py
-"""
 
 import os
 import sys
